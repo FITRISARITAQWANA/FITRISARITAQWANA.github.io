@@ -1,0 +1,7 @@
+title: Disrupsi Kampus: Solusi inovatif # 
+email: fitrisaritaqwana.240604034@student.hamzanwadi.ac.id # 
+description: >- # this means to ignore newlines until "baseurl:"
+  Blog ini mendokumentasikan analisis masalah kampus dan usulan solusi inovatif. # Ganti ini dengan deskripsi blog Anda
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fitrisaritaqwana.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
