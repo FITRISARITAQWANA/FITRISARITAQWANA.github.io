@@ -4,6 +4,53 @@
   <meta charset="UTF-8" />
   <title>Kontak - Kayu Kelapa Nusantara</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .kontak-container {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .kontak-container h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .kontak-container p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .wa-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .wa-btn:hover {
+      background-color: #1ebe5d;
+    }
+
+    .map {
+      margin-top: 20px;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,11 +63,18 @@
     </nav>
   </header>
 
-  <section>
-    <h2>Kontak Kami</h2>
-    <p>📍 Lenek, Lombok Timur, NTB</p>
-    <p>📞 WhatsApp: 08xxxxxxxxxx</p>
-    <p>📷 Instagram: @kayukelapanusantara</p>
+  <section class="kontak-container">
+    <h2>Hubungi Kami</h2>
+    <p><strong>Nomor WhatsApp:</strong> <br> <a href="https://wa.me/628xxxxxxxxxx" target="_blank">+62 8xx-xxxx-xxxx</a></p>
+    <p><strong>Alamat:</strong> <br> Sembalun, Lombok Timur, Nusa Tenggara Barat</p>
+    <p><strong>Jam Buka:</strong> <br> Setiap Hari, 08.00 - 17.00 WITA</p>
+
+    <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%20saya%20tertarik%20dengan%20produk%20Kayu%20Kelapa%20meteran">Chat via WhatsApp</a>
+
+    <div class="map">
+      <!-- Ganti link berikut dengan link Google Maps lokasi usaha -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
+    </div>
   </section>
 
   <footer>

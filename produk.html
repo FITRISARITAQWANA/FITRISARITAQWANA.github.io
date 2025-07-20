@@ -4,6 +4,57 @@
   <meta charset="UTF-8" />
   <title>Produk - Kayu Kelapa Nusantara</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .produk-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .produk-item {
+      width: 240px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .produk-item img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .produk-item h3 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+    }
+
+    .produk-item p {
+      margin: 0 10px 10px;
+      font-size: 13px;
+    }
+
+    .wa-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 8px 12px;
+      margin: 10px 0 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+
+    .wa-btn:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,17 +68,83 @@
   </header>
 
   <section>
-    <h2>Produk Kami</h2>
-    <ul>
-      <li>Kayu Kelapa 1 meter</li>
-      <li>Kayu kelapa 2 meter</li>
-      <li>Kayu kelapa 3 meter</li>
-      <li>Kayu kelapa 4 meter</li>
-      <li>Kayu kelapa 5 meter</li>
-      <li>Kayu kelapa 6 meter</li>
-      <li>Kayu kelapa 7 meter</li>
-      <li>Kayu kelapa 8 metet</li>
-    </ul>
+    <h2>Kayu Kelapa Ukuran Meteran</h2>
+    <div class="produk-grid">
+
+      <!-- Daftar Produk -->
+      <div class="produk-item">
+        <img src="img/kayu05m.jpg" alt="Kayu 0.5 Meter">
+        <h3>Kayu 0.5 Meter</h3>
+        <p><strong>Harga:</strong> Rp 15.000</p>
+        <p>Cocok untuk rak kecil & kerajinan.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%200.5%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu1m.jpg" alt="Kayu 1 Meter">
+        <h3>Kayu 1 Meter</h3>
+        <p><strong>Harga:</strong> Rp 30.000</p>
+        <p>Untuk rak & papan kecil.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%201%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu2m.jpg" alt="Kayu 2 Meter">
+        <h3>Kayu 2 Meter</h3>
+        <p><strong>Harga:</strong> Rp 60.000</p>
+        <p>Ukuran standar, banyak diminati.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%202%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu3m.jpg" alt="Kayu 3 Meter">
+        <h3>Kayu 3 Meter</h3>
+        <p><strong>Harga:</strong> Rp 90.000</p>
+        <p>Cocok untuk bahan bangunan ringan.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%203%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu4m.jpg" alt="Kayu 4 Meter">
+        <h3>Kayu 4 Meter</h3>
+        <p><strong>Harga:</strong> Rp 120.000</p>
+        <p>Untuk tiang & rangka rumah.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%204%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu5m.jpg" alt="Kayu 5 Meter">
+        <h3>Kayu 5 Meter</h3>
+        <p><strong>Harga:</strong> Rp 150.000</p>
+        <p>Kayu kuat untuk konstruksi besar.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%205%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu6m.jpg" alt="Kayu 6 Meter">
+        <h3>Kayu 6 Meter</h3>
+        <p><strong>Harga:</strong> Rp 180.000</p>
+        <p>Kayu panjang untuk atap & balok.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%206%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu7m.jpg" alt="Kayu 7 Meter">
+        <h3>Kayu 7 Meter</h3>
+        <p><strong>Harga:</strong> Rp 210.000</p>
+        <p>Digunakan untuk rangka besar.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%207%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+      <div class="produk-item">
+        <img src="img/kayu8m.jpg" alt="Kayu 8 Meter">
+        <h3>Kayu 8 Meter</h3>
+        <p><strong>Harga:</strong> Rp 240.000</p>
+        <p>Ukuran paling panjang & premium.</p>
+        <a class="wa-btn" href="https://wa.me/628xxxxxxxxxx?text=Halo%2C%20saya%20ingin%20pesan%20Kayu%208%20Meter">Pesan via WhatsApp</a>
+      </div>
+
+    </div>
   </section>
 
   <footer>
